@@ -1,0 +1,1 @@
+SITECLIENT_TRACE=1 python3 ./bin/acq400_capture.py --hard_trigger=EXT --soft_trigger=0 --transient=PRE=0,POST=4000000,DEMUX=1,SOFT_TRIGGER=0 $*
