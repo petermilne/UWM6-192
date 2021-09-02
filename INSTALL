@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BIN=~/bin
-BIN=~/testbin
+#BIN=~/testbin
 mkdir -p $BIN
 cp bin/* $BIN
 

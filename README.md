@@ -3,7 +3,7 @@
 Copy the scripts from bin to ~/bin
 
 ```
-./install
+./INSTALL
 ```
 
 
