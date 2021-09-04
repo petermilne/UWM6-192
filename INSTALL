@@ -11,7 +11,8 @@ HAPI=$PRJ/acq400_hapi
 HPROGS="user_apps/acq400/acq400_abort.py \
 user_apps/acq400/acq400_capture.py \
 user_apps/acq400/acq400_reboot.py \
-user_apps/acq400/sync_role.py"
+user_apps/acq400/sync_role.py \
+user_apps/acq2106/mgtdramshot.py"
 
 for P in $HPROGS; do ln -s $HAPI/$P $BIN; done
 
